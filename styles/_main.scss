@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper1200 {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h2 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin-top: 10px;
+}
