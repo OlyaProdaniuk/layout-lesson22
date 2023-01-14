@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+// footer CTA
+
+.footer-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+h2{
+    color: white;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: $font48;
+}
+.cta{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.startnow-btn{
+    width: 210px;
+    height: 60px;
+    border-radius: 56px;
+    border: 2px solid #69e6a6;
+    border-radius: 56px;
+    color: #ffffff;
+    background-color: #69e6a6;
+    font-family: "Open Sans";
+    cursor: pointer;
+    &:hover {
+      background-color: #ffffff;
+      border: 2px solid #ffffff;
+      color: #0A2640;
+}}
+#mail{
+    width: 370px;
+    height: 56px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 56px;
+    color: $grayColor;
+    padding-left: 10px;
+    font-family: "Open Sans";
+}
+
+
+
+
+// footer styles
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    @include columns();
+    align-items: center;
+    color: white;
+    
+
+}
+
+// columns 
+
+.footer-landings > *{
+@include footerColumn();
+& a{
+    text-decoration: none;
+    color: #777777;
+    font-size: $font20;
+}
+
+}
+.footer-resources > *{
+    @include footerColumn();
+    & a{
+        text-decoration: none;
+        color: #777777;
+        font-size: $grayColor;
+    }
+}
+.footer-company > *{
+    @include footerColumn();
+    & a{
+        text-decoration: none;
+        color: $grayColor;
+        font-size: $font20;
+        
+    }
+}
+ul li{
+    padding-top: 1em;
+}
+
+// green hiring
+
+.hiring{
+    color: #0A2640;
+    border: 1px solid #65E4A3;
+    border-radius: 25%;
+    background-color: #65E4A3;
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    
+}
+
+// first column with logo
+
+.logo_name{
+    font-size: $font43;
+    font-family: Manrope;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+h3{
+    font-size: $font20;
+    color: #000000;
+}
+
+.footer-text{
+    color: $grayColor;
+    padding-bottom: 2em;
+    color: $grayColor;
+    font-family: "Open Sans";
+   
+}
+.rights-reserved{
+    color: $grayColor;
+}
+

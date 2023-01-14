@@ -1,0 +1,15 @@
+@mixin columns() {
+    background-color: white;
+    list-style-type: none;
+    // font-family: Open Sans;
+    
+}
+
+@mixin footerColumn(){
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Open Sans;
+    color: #777777;
+    
+
+}

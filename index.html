@@ -8,7 +8,57 @@
     <title>Practice Layout</title>
   </head>
   <body>
-    <header></header>
+    <div class="header-wrapper">
+      <header class="header wrapper1200">
+        <nav class="top-nav">
+          <div class="logo">
+            <svg
+              width="26"
+              height="34"
+              viewBox="0 0 26 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16H17.0678C21.9511 16 25.9099 19.9588 25.9099 24.8421C25.9099 29.7255 21.9511 33.6842 17.0678 33.6842H0V16Z"
+                fill="#65E4A3"
+              />
+              <path
+                d="M0 0.526352H11.3927C15.0552 0.526352 18.0243 3.49541 18.0243 7.15793C18.0243 10.8204 15.0552 13.7895 11.3927 13.7895H0V0.526352Z"
+                fill="#65E4A3"
+              />
+            </svg>
+            <p>Boldo</p>
+          </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+          <ul class="menu">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="initial-info wrapper1200">
+        <div class="greetings">
+          <h2>Save time by building fast with Boldo Template</h2>
+          <p>
+            Funding handshake buyer business-to-business metrics iPad
+            partnership. First mover advantage innovator success deployment
+            non-disclosure.
+          </p>
+          <button class="header-btn big">Buy template</button
+          ><button class="header-btn small">Explore</button>
+        </div>
+        <div class="graphics">
+          <img src="assets/images/hero-graphics.png" alt="rgaphics" />
+        </div>
+      </div>
+    </div>
+
     <main>
       <div id="services">
         <header class="section__header">
@@ -148,7 +198,7 @@
             </p>
             <div>
               <img src="assets/images/blog_comment2.png" alt="photo2" />
-              <span>Pachel Green</span>
+              <span>Rachel Green</span>
             </div>
           </div>
 
@@ -171,7 +221,70 @@
 
         <button>Load more</button>
       </div>
+
+      <!-- banner with CTA before footer -->
+      <div class="footer-cta">
+        <img src="assets/images/rectangle-footer.png" alt="rectangular" />
+        <div class="cta">
+          <h2>
+            An enterprise template to ramp <br />
+            up your company website
+          </h2>
+          <div class="cta-input-btn">
+            <label for="mail"></label>
+            <input type="mail" id="mail" placeholder="Your email address" />
+            <button class="startnow-btn">Start Now</button>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <div>
+          <p>
+            <img src="assets/images/logo.svg" alt="logo" />
+            <span class="logo_name"> Boldo</span>
+          </p>
+
+          <p class="footer-text">
+            Social media validation business model <br />
+            canvas graphical user interface launch <br />
+            party creative facebook iPad twitter. <br />
+          </p>
+          <p class="rights-reserved">All rights reserved.</p>
+        </div>
+
+        <div class="footer-landings">
+          <ul>
+            <h3>Landings</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-company">
+          <ul>
+            <h3>Company</h3>
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#">Careers <span class="hiring">Hiring!</span></a>
+            </li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-resources">
+          <ul>
+            <h3>Resources</h3>
+            <li><a href="#">Blog</a></li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
