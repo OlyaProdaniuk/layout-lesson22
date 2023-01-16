@@ -16,18 +16,18 @@
 
 }
 
-h2{
-    color: white;
-    font-family: Manrope;
-    font-weight: 400;
-    font-size: $font48;
-}
 .cta{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  & h2{
+    color: white;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: $font48;
+    }
 }
 .startnow-btn{
     width: 210px;
@@ -37,7 +37,7 @@ h2{
     border-radius: 56px;
     color: #ffffff;
     background-color: #69e6a6;
-    font-family: Open Sans;
+    font-family: "Open Sans";
     cursor: pointer;
     &:hover {
       background-color: #ffffff;
@@ -52,7 +52,7 @@ h2{
     border-radius: 56px;
     color: $grayColor;
     padding-left: 10px;
-    font-family: Open Sans;
+    font-family: "Open Sans";
 }
 
 
@@ -111,7 +111,7 @@ ul li{
     border-radius: 25%;
     background-color: #65E4A3;
     font-size: 13px;
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-weight: 700;
     
 }
@@ -135,7 +135,7 @@ h3{
     color: $grayColor;
     padding-bottom: 2em;
     color: $grayColor;
-    font-family: Open Sans;
+    font-family: "Open Sans";
    
 }
 .rights-reserved{

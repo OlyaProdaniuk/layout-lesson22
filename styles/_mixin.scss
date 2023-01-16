@@ -1,15 +1,30 @@
 @mixin columns() {
-    background-color: white;
-    list-style-type: none;
-    // font-family: Open Sans;
-    
+  background-color: white;
+  list-style-type: none;
+  // font-family: Open Sans;
 }
 
-@mixin footerColumn(){
-    list-style-type: none;
-    text-decoration: none;
-    font-family: Open Sans;
-    color: #777777;
-    
+@mixin footerColumn() {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Open Sans;
+  color: #777777;
+}
 
+@mixin revertColorsOnHover($color: #fff, $background-color: #0a2640) {
+  color: $color;
+  background-color: $background-color;
+
+  path {
+    stroke: $color;
+  }
+
+  &:hover {
+    color: $background-color;
+    background-color: $color;
+
+    path {
+      stroke: $background-color;
+    }
+  }
 }
