@@ -16,18 +16,18 @@
 
 }
 
-h2{
-    color: white;
-    font-family: Manrope;
-    font-weight: 400;
-    font-size: $font48;
-}
 .cta{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  & h2{
+    color: white;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: $font48;
+    }
 }
 .startnow-btn{
     width: 210px;
